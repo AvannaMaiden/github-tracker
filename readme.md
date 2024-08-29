@@ -1,6 +1,18 @@
-Project URL: https://roadmap.sh/projects/github-user-activity
+# github-tracker
+Solution for the [github-user-activity](https://roadmap.sh/projects/github-user-activity) challenge from [roadmap.sh](https://roadmap.sh/).
 
-How to use:
-1. Choose path to main.py 
-2. Python main.py
-3. Enter the username
+## How to run
+
+Clone the repository and run the following command:
+
+```bash
+git clone https://github.com/AvannaMaiden/github-tracker
+cd github-tracker
+```
+
+Run the file and enter the username:
+
+```bash
+python main.py
+#Username
+```
