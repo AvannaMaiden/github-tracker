@@ -1,5 +1,6 @@
 import http.client
 import json
+import argparse
 
 def github_activity(username):
     connection = http.client.HTTPSConnection("api.github.com")
@@ -32,7 +33,9 @@ def github_activity(username):
         print(f"{created_at}: {event_type} in {repo_name}")
 
 if __name__ == "__main__":
-    username = input("Enter the GitHub username: ")
+    parser = argparse.ArgumentParser()
+    parser.add_argument('username', type=str, help='GitHub username')
+    args = parser.parse_args()
     print('-'*40)
-    github_activity(username)
+    github_activity(args.username)
     print('-'*40)

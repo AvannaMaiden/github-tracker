@@ -10,9 +10,8 @@ git clone https://github.com/AvannaMaiden/github-tracker
 cd github-tracker
 ```
 
-Run the file and enter the username:
+Run the file with the username:
 
 ```bash
-python main.py
-#Username
+python main.py <Username>
 ```
